@@ -4,11 +4,13 @@ from .views import FurnitureViewSet
 from .views import InventoryViewSet
 from .views import RegisterUserView, LoginUserView, UserProfileView
 from .views import ShoppingCartViewSet
+from .views import OrderViewSet
 
 router = DefaultRouter()
 router.register(r'furniture', FurnitureViewSet, basename='furniture')
 router.register(r'inventory', InventoryViewSet, basename='inventory')
 router.register(r'shopping-cart', ShoppingCartViewSet, basename='shopping-cart')
+router.register(r'order', OrderViewSet, basename='order')
 
 urlpatterns = [
     path('', include(router.urls)),
