@@ -17,7 +17,7 @@ The Furniture Store API is a RESTful API built with Django and Django REST Frame
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/furniture-store-api.git
-   cd furniture-store-api
+   cd online-furniture-store
    ```
 
 3. Create a virtual environment:
