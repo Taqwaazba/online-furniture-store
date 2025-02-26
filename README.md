@@ -4,6 +4,12 @@
 
 The Furniture Store API is a RESTful API built with Django and Django REST Framework. It provides endpoints for managing a furniture store, including user authentication, furniture inventory management, shopping cart functionality, and order processing. The API is designed to be used by front-end applications or other services that need to interact with a furniture store's backend.
 
+## Collaborators:
+1-Taqwa Azba.
+2-Nagham Baransi.
+3-Lama Dakwar.
+4-Shaymaa Garban.
+ 
 ## Setup Instructions
 
 ### Prerequisites
